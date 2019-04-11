@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MappingWidget</class>
+ <widget class="QWidget" name="MappingWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>210</width>
+    <height>137</height>
+   </rect>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="fooButton">
+        <property name="text">
+         <string>foo</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="barButton">
+        <property name="text">
+         <string>bar</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="foobarButton">
+        <property name="text">
+         <string>foobar</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="foobarLabel">
+        <property name="text">
+         <string>foobar</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget_2" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QPushButton" name="fizzButton">
+        <property name="text">
+         <string>fizz</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="buzzButton">
+        <property name="text">
+         <string>buzz</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="fizzbuzzButton">
+        <property name="text">
+         <string>fizzbuzz</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="fizzbuzzLabel">
+        <property name="text">
+         <string>fizzbuzz</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
